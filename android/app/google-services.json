@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5875574968",
+    "project_id": "traveleaze-e2f45",
+    "storage_bucket": "traveleaze-e2f45.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5875574968:android:1bb5c9c5081ad46809ac4d",
+        "android_client_info": {
+          "package_name": "com.example.traveleaze"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-_IQvGAbbZXohXcUfcP1Y7SbRAIbRvVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

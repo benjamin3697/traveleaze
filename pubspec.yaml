@@ -1,0 +1,91 @@
+name: traveleaze
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.2
+  lottie: 3.3.1
+
+  firebase_core: ^2.31.0
+  firebase_auth: ^4.19.5
+  google_sign_in: ^6.2.4
+  cloud_firestore: ^4.7.1
+
+
+  #utility package
+  intl: ^0.20.2
+  logger: ^2.6.2
+  flutter_native_splash: ^2.4.6
+  carousel_slider: ^5.1.1
+  readmore: ^3.0.0
+  http: ^1.5.0
+
+  #state management
+  get: ^4.7.2
+  get_it: ^8.2.0
+  get_storage: ^2.1.1
+
+  #icons
+  cupertino_icons: ^1.0.8
+  iconsax_flutter: ^1.0.1
+  firebase_storage: ^11.7.7
+  image_picker: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/town/akello_hotel.jpg
+    - assets/town/stanbic_bank.jpg
+    - assets/town/soroti_hospital.jpg
+    - assets/town/suncity.jpg
+    - assets/town/kyoga.jpg
+    - assets/town/main_market.jpg
+
+    - assets/campus/soroti_campus.jpeg
+    - assets/campus/university_library.JPG
+    - assets/campus/innovation_hub.jpg
+    - assets/campus/campus_location.png
+
+    - assets/nearbyTrip/hurseyresort.jpg
+    - assets/nearbyTrip/kyoga.jpg
+    - assets/nearbyTrip/moroto_mountains.PNG
+    - assets/nearbyTrip/soroti_rock.jpg
+    - assets/nearbyTrip/sipi.png
+    - assets/nearbyTrip/nyero.png
+    - assets/logo/google.png
+    - assets/logo/facebook.png
+    - assets/logo/logo.png
+
+# Configuration for flutter_launcher_icons
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/logo.png"
+
+
+
+
+
+
+
+
+
